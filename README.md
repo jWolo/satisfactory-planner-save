@@ -1,7 +1,7 @@
 # Satisfactory Planner Save Tool
 CLI tool for managing save files for the [Satisfactory Planner](https://satisfactory-planner.vercel.app/).
 
-First, I have no affiliation with the creator of https://satisfactory-planner.vercel.app/. I just made this tool for me. I really like laying out my big factories with this tool, but I got tired of not being able to save or load my layouts. Deleting all of the nodes became tedious. This is a hacky solution and is not ideal, but it works. I'm using selenium to modify browser localStorage since that is where this data is stored locally. The tool currently only works in Chrome. If there is interest, I can add Firefox support Let me know what you think.
+First, I have no affiliation with the creator of https://satisfactory-planner.vercel.app/. I just made this tool for me. I really like laying out my big factories with this tool, but I got tired of not being able to save or load my layouts. Deleting all of the nodes became tedious. This is a hacky solution and is not ideal, but it works. I'm using selenium to modify browser localStorage. The tool currently only works in Chrome. If there is interest, I can add Firefox support Let me know what you think.
 
 ## Prerequisites
 
