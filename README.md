@@ -36,10 +36,10 @@ Saved to C:\Users\jwolo\.planner\iron.json
 PS C:\Dev\satisfactory-planner-save> planner --clear
 
 PS C:\Dev\satisfactory-planner-save> planner --save
-Enter filename to save (without .json extension): iron
+Enter filename to save (without .json extension): big_iron_plan
 
 DevTools listening on ws://127.0.0.1:53248/devtools/browser/bca25877-529e-47b2-8431-5fc9ec0b0595
-Saved to C:\Users\jwolo\.planner\iron.json
+Saved to C:\Users\jwolo\.planner\big_iron_plans.json
 
 PS C:\Dev\satisfactory-planner-save> planner --load
 
