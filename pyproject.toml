@@ -1,10 +1,11 @@
 [project]
 name = "satisfactory-planner-save"
-version = "0.1.0"
+version = "0.1.2"
 description = "CLI tool for managing Satisfactory Planner saves"
 authors = [
     {name = "Jay Woose", email = "jwoose@gmail.com"},
 ]
+readme = "README.md"
 
 dynamic = ["dependencies"]
 
