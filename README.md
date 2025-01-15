@@ -33,7 +33,7 @@ DevTools listening on ws://127.0.0.1:53248/devtools/browser/bca25877-529e-47b2-8
 Saved to C:\Users\jwolo\.planner\iron.json
 
 //Clearing the plan
-PS C:\Dev\WoloBotTools\satisfactory-planner-save> planner --clear
+PS C:\Dev\satisfactory-planner-save> planner --clear
 
 PS C:\Dev\satisfactory-planner-save> planner --save
 Enter filename to save (without .json extension): iron
