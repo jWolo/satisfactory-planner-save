@@ -1,6 +1,7 @@
 # Satisfactory Planner Save Tool
-
 CLI tool for managing save files for the [Satisfactory Planner](https://satisfactory-planner.vercel.app/).
+
+First, I have no affiliation with the creator of https://satisfactory-planner.vercel.app/. I just made this tool for me. I really like laying out my big factories with this tool, but I got tired of not being able to save or load my layouts. Deleting all of the nodes became tedious. This is a hacky solution and is not ideal, but it works. I'm using selenium to modify browser localStorage since that is where this data is stored locally. The tool currently only works in Chrome. If there is interest, I can add Firefox support Let me know what you think.
 
 ## Prerequisites
 
@@ -20,7 +21,7 @@ pip install .
 planner [OPTIONS]
 ```
 
-NOTE: For the best results Chrome should be closed when using this tool!
+NOTE: For the best results Chrome should be closed when using this tool! The defaults are for Windows since Satisfactory is a Windows game. If you configure it correctly this should still work on Mac OS.
 
 The easiest way to use the tool on a single computer is to just use the --load and --save commands. These commands will save the files for you. You will see an interactive menu when saving and loading files.
 
@@ -32,7 +33,7 @@ Enter filename to save (without .json extension): iron
 DevTools listening on ws://127.0.0.1:53248/devtools/browser/bca25877-529e-47b2-8431-5fc9ec0b0595
 Saved to C:\Users\jwolo\.planner\iron.json
 
-//Clearing the plan
+# Clearing the plan
 PS C:\Dev\satisfactory-planner-save> planner --clear
 
 PS C:\Dev\satisfactory-planner-save> planner --save
