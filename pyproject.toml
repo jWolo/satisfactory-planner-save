@@ -1,0 +1,22 @@
+[project]
+name = "satisfactory-planner-save"
+version = "0.1.0"
+description = "CLI tool for managing Satisfactory Planner saves"
+authors = [
+    {name = "Jay Woose", email = "jwoose@gmail.com"},
+]
+
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[project.scripts]
+planner = "planner_save:main"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["planner_save"]
