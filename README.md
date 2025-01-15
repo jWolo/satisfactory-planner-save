@@ -12,7 +12,7 @@ First, I have no affiliation with the creator of https://satisfactory-planner.ve
 ## Installation
 
 ```bash
-pip install .
+pip install satisfactory-planner-save
 ```
 
 ## Usage
