@@ -79,6 +79,7 @@ def save_config(user_data_dir=None, profile_directory=None):
 def get_driver():
     config = get_config()
     options = webdriver.ChromeOptions()
+    options.add_argument('--headless')
     options.add_argument(f'--user-data-dir={config["user_data_dir"]}')
     options.add_argument(f'--profile-directory={config["profile_directory"]}')
     driver = webdriver.Chrome(options=options)

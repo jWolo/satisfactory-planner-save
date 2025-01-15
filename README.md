@@ -22,7 +22,7 @@ planner [OPTIONS]
 
 NOTE: For the best results Chrome should be closed when using this tool!
 
-The easiest way to use the tool on a single computer is to just use the --load and --save commands. These commands will save the files for you. You will see an interactive menu when loading files. 
+The easiest way to use the tool on a single computer is to just use the --load and --save commands. These commands will save the files for you. You will see an interactive menu when saving and loading files.
 
 Here are some examples:
 ```pwsh
@@ -100,14 +100,8 @@ The tool stores configuration in `~/.planner/config.json`. You can set:
 
 ## Troubleshooting
 
-1. If Chrome fails to launch:
-   - Ensure Chrome is installed
-   - Check user data directory permissions
-   - Verify profile directory exists
-
-2. If saves fail:
-   - Check write permissions
-   - Ensure target directory exists
+1. If you get an error message:
+   - Make sure you close Chrome when using the tool.
 
 ## License
 
@@ -116,3 +110,7 @@ Apache 2.0
 ## Author
 
 jWolo (jwoose at gmail)
+
+## Note
+
+Let me know if you need help. I'm happy to assist. I'll update this guide accordingly.
